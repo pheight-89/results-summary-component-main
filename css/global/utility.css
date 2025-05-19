@@ -1,0 +1,21 @@
+.category__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75em;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.category__container > div {
+  display: flex;
+}
+
+.center__grid {
+  display: grid;
+  place-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}

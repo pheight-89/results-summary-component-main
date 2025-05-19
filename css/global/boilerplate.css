@@ -1,0 +1,44 @@
+:root {
+  --lightRed: hsl(0, 100%, 67%);
+  --lightRed5: hsla(0, 100%, 67%, 5%);
+  --orangeyYellow: hsl(39, 100%, 56%);
+  --orangeyYellow5: hsla(39, 100%, 56%, 5%);
+  --greenTeal: hsl(166, 100%, 37%);
+  --greenTeal5: hsla(166, 100%, 37%, 5%);
+  --cobaltBlue: hsl(234, 85%, 45%);
+  --cobaltBlue5: hsla(234, 85%, 45%, 5%);
+  --white: hsl(0, 0%, 100%);
+  --paleBlue: hsl(221, 100%, 96%);
+  --lightLavender: hsl(241, 100%, 89%);
+  --darkGrayBlue: hsl(224, 30%, 27%);
+
+  /*Colors for background gradient*/
+  --lightSlateBlue: hsl(252, 100%, 67%);
+  --lightRoyalBlue: hsl(241, 81%, 54%);
+
+  --bgGradient: linear-gradient(var(--lightSlateBlue), var(--lightRoyalBlue));
+
+  /*Colors for circle gradient*/
+  --violetBlue: hsla(256, 72%, 46%, 1);
+  --persianBlue: hsla(241, 72%, 46%, 0);
+
+  --circleGradient: linear-gradient(var(--violetBlue), var(--persianBlue));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
